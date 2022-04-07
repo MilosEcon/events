@@ -2048,6 +2048,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   justify-content: center;
   align-items: center;
   position: fixed;
+  padding: 20px 0;
   z-index: 1;
   left: 0;
   top: 0;
@@ -2058,6 +2059,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .modal__card {
   position: relative;
+  left: 0;
+  top: 0;
   background-color: #c7d5e8;
   border-radius: 10px;
   width: 100%;
@@ -2087,12 +2090,14 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .modal__close {
   position: absolute;
   display: flex;
-  right: -50px;
+  right: 10px;
+  top: 10px;
   width: 35px;
   height: 35px;
+  background-color: #496db3;
   border: 1px solid #496db3;
   border-radius: 50%;
-  color: #496db3;
+  color: white;
   justify-content: center;
   align-items: center;
   cursor: pointer;

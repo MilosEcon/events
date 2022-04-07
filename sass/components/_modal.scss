@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   position: fixed;
+  padding: 20px 0;
   z-index: 1;
   left: 0;
   top: 0;
@@ -13,6 +14,8 @@
 
   &__card {
     position: relative;
+    left: 0;
+    top: 0;
     background-color: $secondary;
     border-radius: 10px;
     width: 100%;
@@ -40,12 +43,14 @@
   &__close {
     position: absolute;
     display: flex;
-    right: -50px;
+    right: 10px;
+    top: 10px;
     width: 35px;
     height: 35px;
+    background-color: $tertiary;
     border:1px solid $tertiary;
     border-radius: 50%;
-    color: $tertiary;
+    color: white;
     justify-content: center;
     align-items: center;
     cursor: pointer;
