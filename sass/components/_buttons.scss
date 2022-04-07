@@ -3,6 +3,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: $base-padding $base-padding * 2;
   border-radius: $base-border-radius;
   background-color: $bg-color;
@@ -36,17 +37,6 @@
       background-color: light-comp($val);
     }
   }
-}
-
-.close-btn {
-  position: absolute;
-  right: -50px;
-  width: 35px;
-  height: 35px;
-  border:1px solid $tertiary;
-  border-radius: 50%;
-  color: $tertiary;
-  cursor: pointer;
 }
 
 .add-btn {

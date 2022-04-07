@@ -13,21 +13,24 @@
     <style></style>
   </head>
   <body class="bg-primary">
-    <div class=" display-n modal text-tertiary" onclick="closeModal()">
+    <div class=" display modal text-tertiary" onclick="closeModal()">
       <div class="container">
         <div class="row modal__card">
-          <span class="close-btn">&times</span>
+          <span class="modal__close">&times</span>
           <div class="modal__img-wrapper">
             <img class="modal__img" class="" src="https://images.unsplash.com/photo-1649130381732-2a2f9b33640f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80">
             <img class="modal__icon" src="" alt="">
           </div>
-          <div class="modal__desc">
+          <div class="modal__body">
             <h3>${ad.title}</h3>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-            <div>datum</div>
+            <p class="modal__desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            <div class="row">datum</div>
             <div class="row justify-space-between">
-              <div>vreme</div>
-              <div>dugme</div>
+              <div class="row align-items-center">
+                <span class="card__time-icon"><img src="images/time.svg" alt="time"></span>
+                <span>08:00 - 16:00</span>
+              </div>
+              <button class="btn-outlined-tertiary">Go Til Nettsiden</button>
             </div>   
           </div>
         </div>
@@ -132,41 +135,8 @@
     <section class="container">
       <div>
         <div class="text-tertiary border-bottom-1 border-tertiary">15.04.2022</div>
-        <div class="row gap-2 mt-4 text-tertiary">
-          <div class="col-3-xl col-3-lg col-12-xs col-6-sm">
-            <div class="card">
-              <div class="card__header">
-                <div class="card__icon ">
-                  <img src="images/prize.svg" alt="">
-                </div>
-                <img class="card__img" src="https://images.unsplash.com/photo-1649130381732-2a2f9b33640f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="waves">
-              </div>
-              <div class="card__title">Slalomkonkuranse</div>
-              <div class="footer row justify-space-between align-items-center">
-                <div>08.00 - 16.00</div>
-                <button class="btn-outlined-tertiary">Les Mer</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-3-xl col-3-lg">
-            <div class="card">
-              <div class="card__header">
-                <div class="card__icon ">
-                  <img src="images/prize.svg" alt="">
-                </div>
-                <div class="card__icon card__icon--ad">
-                  <img src="images/megaphone.svg" alt="">
-                </div>
-                <img class="card__img" src="https://images.unsplash.com/photo-1649130381732-2a2f9b33640f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="waves">
-              </div>
-              <div class="card__title">Slalomkonkuranse</div>
-              <div class="footer row justify-space-between align-items-center">
-                <div>08.00 - 16.00</div>
-                <button class="btn-outlined-tertiary">Les Mer</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-3-xl col-3-lg">
+        <div class="row gap-2 mt-4 text-tertiary">          
+          <div class="col-3-xl col-4-md col-6-sm col-12-xs">
             <div class="card">
               <div class="card__header">
                 <div class="card__icon ">
@@ -187,11 +157,11 @@
               </div>
             </div>
           </div>
-          <div class="col-3-xl col-3-lg">
-            <div class="card advertisement">
+          <div class="col-3-xl col-4-md col-6-sm col-12-xs">
+            <div class="card">
               <div class="card__header">
                 <div class="card__icon ">
-                  <img src="images/megaphone.svg" alt="">
+                  <img src="images/prize.svg" alt="">
                 </div>
                 <div class="card__icon card__icon--ad">
                   <img src="images/megaphone.svg" alt="">
@@ -200,7 +170,94 @@
               </div>
               <div class="card__title">Slalomkonkuranse</div>
               <div class="footer row justify-space-between align-items-center">
-                <div>08.00 - 16.00</div>
+                <div class="row align-items-center">
+                  <span class="card__time-icon"><img src="images/time.svg" alt="time"></span>
+                  <span>08.00 - 16.00</span>
+                </div>
+                <button class="btn-outlined-tertiary">Les Mer</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3-xl col-4-md col-6-sm col-12-xs">
+            <div class="card">
+              <div class="card__header">
+                <div class="card__icon ">
+                  <img src="images/prize.svg" alt="">
+                </div>
+                <div class="card__icon card__icon--ad">
+                  <img src="images/megaphone.svg" alt="">
+                </div>
+                <img class="card__img" src="https://images.unsplash.com/photo-1649130381732-2a2f9b33640f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="waves">
+              </div>
+              <div class="card__title">Slalomkonkuranse</div>
+              <div class="footer row justify-space-between align-items-center">
+                <div class="row align-items-center">
+                  <span class="card__time-icon"><img src="images/time.svg" alt="time"></span>
+                  <span>08.00 - 16.00</span>
+                </div>
+                <button class="btn-outlined-tertiary">Les Mer</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3-xl col-4-md col-6-sm col-12-xs">
+            <div class="card">
+              <div class="card__header">
+                <div class="card__icon ">
+                  <img src="images/prize.svg" alt="">
+                </div>
+                <div class="card__icon card__icon--ad">
+                  <img src="images/megaphone.svg" alt="">
+                </div>
+                <img class="card__img" src="https://images.unsplash.com/photo-1649130381732-2a2f9b33640f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="waves">
+              </div>
+              <div class="card__title">Slalomkonkuranse</div>
+              <div class="footer row justify-space-between align-items-center">
+                <div class="row align-items-center">
+                  <span class="card__time-icon"><img src="images/time.svg" alt="time"></span>
+                  <span>08.00 - 16.00</span>
+                </div>
+                <button class="btn-outlined-tertiary">Les Mer</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3-xl col-4-md col-6-sm col-12-xs">
+            <div class="card">
+              <div class="card__header">
+                <div class="card__icon ">
+                  <img src="images/prize.svg" alt="">
+                </div>
+                <div class="card__icon card__icon--ad">
+                  <img src="images/megaphone.svg" alt="">
+                </div>
+                <img class="card__img" src="https://images.unsplash.com/photo-1649130381732-2a2f9b33640f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="waves">
+              </div>
+              <div class="card__title">Slalomkonkuranse</div>
+              <div class="footer row justify-space-between align-items-center">
+                <div class="row align-items-center">
+                  <span class="card__time-icon"><img src="images/time.svg" alt="time"></span>
+                  <span>08.00 - 16.00</span>
+                </div>
+                <button class="btn-outlined-tertiary">Les Mer</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3-xl col-4-md col-6-sm col-12-xs">
+            <div class="card">
+              <div class="card__header">
+                <div class="card__icon ">
+                  <img src="images/prize.svg" alt="">
+                </div>
+                <div class="card__icon card__icon--ad">
+                  <img src="images/megaphone.svg" alt="">
+                </div>
+                <img class="card__img" src="https://images.unsplash.com/photo-1649130381732-2a2f9b33640f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="waves">
+              </div>
+              <div class="card__title">Slalomkonkuranse</div>
+              <div class="footer row justify-space-between align-items-center">
+                <div class="row align-items-center">
+                  <span class="card__time-icon"><img src="images/time.svg" alt="time"></span>
+                  <span>08.00 - 16.00</span>
+                </div>
                 <button class="btn-outlined-tertiary">Les Mer</button>
               </div>
             </div>

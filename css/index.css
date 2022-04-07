@@ -1484,6 +1484,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: transparent;
@@ -1494,6 +1495,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #d9e3f2;
@@ -1507,6 +1509,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: transparent;
@@ -1523,6 +1526,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #d9e3f2;
@@ -1538,6 +1542,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #c7d5e8;
@@ -1551,6 +1556,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: transparent;
@@ -1567,6 +1573,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #c7d5e8;
@@ -1582,6 +1589,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #496db3;
@@ -1595,6 +1603,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: transparent;
@@ -1611,6 +1620,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #496db3;
@@ -1626,6 +1636,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #ff626b;
@@ -1639,6 +1650,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: transparent;
@@ -1655,6 +1667,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #ff626b;
@@ -1670,6 +1683,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #7bcef7;
@@ -1683,6 +1697,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: transparent;
@@ -1699,6 +1714,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #7bcef7;
@@ -1714,6 +1730,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #d32752;
@@ -1727,6 +1744,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: transparent;
@@ -1743,6 +1761,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: #d32752;
@@ -1758,6 +1777,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: black;
@@ -1771,6 +1791,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: transparent;
@@ -1787,6 +1808,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: black;
@@ -1802,6 +1824,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: white;
@@ -1815,6 +1838,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: transparent;
@@ -1831,6 +1855,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: inline-block;
   border: 0;
+  margin: 0.5rem 0;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   background-color: white;
@@ -1839,17 +1864,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .btn-complement-white:hover {
   color: white;
   background-color: light-comp(white);
-}
-
-.close-btn {
-  position: absolute;
-  right: -50px;
-  width: 35px;
-  height: 35px;
-  border: 1px solid #496db3;
-  border-radius: 50%;
-  color: #496db3;
-  cursor: pointer;
 }
 
 .add-btn {
@@ -2046,23 +2060,42 @@ input[type=date]::-webkit-calendar-picker-indicator {
   position: relative;
   background-color: #c7d5e8;
   border-radius: 10px;
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
+  overflow-y: scroll;
+}
+@media (min-width: 720px) {
+  .modal__card {
+    width: 100%;
+  }
 }
 .modal__img-wrapper {
-  width: 49.9999%;
+  width: 100%;
 }
 .modal__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.modal__desc {
-  width: 49.9999%;
+.modal__body {
+  width: 100%;
   padding: 40px 30px;
 }
-.modal__desc p {
+.modal__body p {
   text-align: justify;
+}
+.modal__close {
+  position: absolute;
+  display: flex;
+  right: -50px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #496db3;
+  border-radius: 50%;
+  color: #496db3;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 .modal__confirmation-box {
   width: 500px;
