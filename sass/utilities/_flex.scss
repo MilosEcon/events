@@ -1,0 +1,26 @@
+.flex {
+  display: flex;
+  &.flex-column {
+    flex-direction: column;
+  }
+  &.between {
+    justify-content: space-between;
+  }
+  &.around {
+    justify-content: space-around;
+  }
+  &.wrap {
+    flex-wrap: wrap;
+  }
+  &.flex-gap-20 > div {
+    margin-right: 20px;
+  }
+}
+
+.middle {
+  align-self: center;
+}
+
+.start {
+  align-self: flex-start;
+}

@@ -1,0 +1,51 @@
+.dropdown {
+  &__wrapper {
+    width: 100%;
+    @include sm {
+      width: 180px;
+    }
+    @include lg {
+      width: auto;
+    }
+  }
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: $tertiary;
+  width: 100%;
+  @include sm {
+    width: 180px;
+  }
+  &__menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    
+    &.open {
+      display: block;
+    }
+  }
+
+  &__item {
+    margin-bottom: 5px;
+    color: $tertiary-lighter;
+    & , & * {
+      cursor: pointer;
+    }
+    label {
+      margin-left: 10px;
+      text-transform: capitalize;
+    }
+    &:first-child {
+      margin-bottom: 15px;
+    }
+    &:hover label, &.active {
+      color: $tertiary;
+    }
+  }
+}

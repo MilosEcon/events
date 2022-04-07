@@ -1,0 +1,58 @@
+$textColor: rgb(39, 39, 39);
+$textColorBrighter: rgb(179, 179, 179);
+$lightTextColor: whitesmoke;
+$buttonColor: rgb(70, 70, 97);
+$cardBackground: rgb(226, 231, 235);
+
+// theme colors
+$primary: #d9e3f2 !default;
+$secondary: #c7d5e8 !default;
+$tertiary: #496db3 !default;
+$tertiary-lighter: mix(white, $tertiary, 40);
+$specialCard: #ff626b !default;
+$logo: #7bcef7 !default;
+$error: #d32752 !default;
+
+
+// color palette
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "specialCard": $specialCard,
+  "logo": $logo,
+  "error": $error,
+  "black": black,
+  "white": white,
+) !default;
+
+
+
+// spacing
+$base-padding: 0.4rem !default;
+$base-margin: 0.5rem !default;
+
+// borders
+$base-border-thickness: 1px !default;
+$base-border-radius: 20px !default;
+
+// box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1) !default;
+
+// font sizes
+$base-font-size: 1rem !default;
+$font-size-sm: $base-font-size * 0.75 !default;
+$font-size-lg: $base-font-size * 1.5 !default;
+$font-size-xl: $base-font-size * 2 !default;
+$font-size-xxl: $base-font-size * 3 !default;
+$font-size-jumbo: $base-font-size * 6 !default;
+
+// circles 
+
+$circles: (
+  "xs": 10px,
+  "sm": 20px,
+  "md": 30px,
+  "lg": 40px,
+  "xxl": 50px,
+)

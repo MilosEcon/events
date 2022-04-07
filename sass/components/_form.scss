@@ -1,0 +1,27 @@
+.form {
+  width: 1200px;
+  margin: 0 auto 200px;
+  & label {
+    display: inline-block;
+   margin-bottom: 10px;
+  }
+  & input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    @include border(1px, $borderRadius: 5px);
+    margin-bottom: 25px;
+  }
+  &__time {
+    margin-bottom: 20px;
+    > div {
+      width: 200px;
+    margin-right: 50px;
+    } 
+  }
+
+  select {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}

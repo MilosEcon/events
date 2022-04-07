@@ -1,0 +1,7 @@
+section {
+  width: 1200px;
+  @include border(1px, $borderRadius: 20px);
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 50px;
+}

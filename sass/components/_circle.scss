@@ -1,0 +1,8 @@
+@each $key, $val in $circles {
+  .circle-#{$key} {
+    display: inline-block;
+    width: $val;
+    height: $val;
+    border-radius: 50%;
+  }
+}

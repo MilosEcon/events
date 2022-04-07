@@ -1,0 +1,13 @@
+.filter-btn {
+    padding: 8px 16px;
+    @include border(1px, $borderRadius: 10px);
+    margin-right: 0.8rem;
+    cursor: pointer;
+    &.active {
+        background-color: $textColor;
+        color: $lightTextColor;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+}

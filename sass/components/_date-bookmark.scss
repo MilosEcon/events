@@ -1,0 +1,6 @@
+.date-bookmark {
+  width: 30%;
+  padding: 10px 20px;
+  @include border(1px, $borderRadius: 10px);
+  margin: 10px 0;
+}

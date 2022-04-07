@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+  <section class="container row justify-center"> 
+    <div class="filter-bar">
+      <div class="filter-bar__date-wrapper">
+          <div class="filter-bar__calendars">
+            <div class="filter-bar__calendar">
+              <div > 
+                <span class="text-tertiary">Fra</span><br>
+                <input type="date" min="${startDate}" value="${startDate}" onchange="chooseDate(this,'userPage', 'start')" onfocusout="turnOffDateFilter()"/>
+              </div>
+            </div>
+            <div class="filter-bar__calendar">
+              <div>
+                <span class="text-tertiary">Til</span><br>
+                <input type="date" min="${startDate}" value="${endDate}" onchange="chooseDate(this, 'userPage', 'end')" onfocusout="turnOffDateFilter()"/>
+              </div>
+            </div>
+            <div class="filter-bar__search-icon">
+              <img  src="images/search.svg" onclick="updateView();"/>
+            </div> 
+          </div>
+          <div class="filter-bar__days">
+              <button 
+                class=" btn-outlined-tertiary mr-1 ${model.inputs.userPage.filterDate === 'today' ? 'active' : ''}" data-point="today" 
+                onclick="filterDate(this, today, today)">
+                I Dag
+              </button>
+              <button 
+                class="btn-outlined-tertiary mr-1 ${model.inputs.userPage.filterDate === 'tomorrow' ? 'active' : ''}" data-point="tomorrow" 
+                onclick="filterDate(this, tomorrow, tomorrow)">
+                I Morgen
+              </button>
+              <button 
+                class="btn-outlined-tertiary mr-1 ${model.inputs.userPage.filterDate === '7days' ? 'active' : ''}" data-point="7days" 
+                onclick="filterDate(this, today, afterSevenDays)">
+                7 Dager
+              </button>
+          </div>
+      </div>
+      <div class="dropdown__wrapper">
+        <div 
+          class="dropdown" 
+          onclick="toggleCategoryDropdown()">
+          <div>Kategorier</div>
+          <div>
+            <i class="arrow down ${isOpen ? 'up' : 'down'}">
+            </i>
+          </div>
+        </div>
+        <div class="pos-relative">
+          <div class=" dropdown__menu open ${isOpen ? 'open' : ''}">
+            <div 
+              class="dropdown__item ${isSelectAll ? 'active' : ''}"             
+              onclick="selectAllOrNone()">
+              <input 
+                type="checkbox" 
+                ${isSelectAll ? 'checked="checked"' : ''} 
+                name="select-all">
+              <label  for="select-all">Select All</label>
+            </div>
+            <div 
+              class="dropdown__item 
+              ${isChecked ? 'active' : ''}"
+              onclick="selectCategory(${category.id})">
+              <input 
+                type="checkbox" 
+                ${isChecked ? 'checked="checked"' : ''}  
+                name="${name}">
+              <label for="${name}">${name}</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
