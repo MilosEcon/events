@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/common.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/userPageController.js"></script>
+    <script src="js/adminPageView.js"></script>
+    <script src="js/adminPageController.js"></script>
+    <script src="js/userPageView.js"></script>
+    
+    <style>
+
+        .fs-14 {
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="app"></div>
+    <script>
+        const updateView = () => {
+            if (model.app.currentPage === 'user') updateUserPageView();
+            if (model.app.currentPage === 'admin') updateAdminPageView();
+        }
+
+        updateView();
+    </script>
+</body>
+</html>
+
