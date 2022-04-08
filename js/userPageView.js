@@ -147,7 +147,7 @@ const showCategories = () => {
                   type="checkbox" 
                   ${isSelectAll ? 'checked="checked"' : ''} 
                   name="select-all">
-                <label  for="select-all">Select All</label>
+                <label  for="select-all">Velg Alle</label>
               </div>
     `;
     for (category of model.categories) {

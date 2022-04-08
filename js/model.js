@@ -87,7 +87,7 @@ const model = {
 
         {
             id: 3,
-            image: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+            image: 'images/rybak.jpg',
             title: 'Alexander Rybak Konsert',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugit nisi similique, veritatis dolor impedit. Consectetur, sit! Neque accusamus deleniti, eos perferendis veniam incidunt corrupti eaque aut qui. Eveniet quidem enim commodi ipsum aspernatur nam quo delectus eum corporis quaerat, animi, rerum recusandae reprehenderit natus ad, deserunt facilis. Velit, veniam fuga ipsa repellat eos asperiores maxime voluptatem quam porro harum nostrum explicabo tempora animi reiciendis.',
             category: {
@@ -108,7 +108,7 @@ const model = {
         
         {
             id: 4,
-            image: 'https://images.unsplash.com/photo-1631779202803-7f1415c87a9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+            image: 'images/ski-school.jpg',
             title: 'Skiskole For Barn',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugit nisi similique, veritatis dolor impedit. Consectetur, sit! Neque accusamus deleniti, eos perferendis veniam incidunt corrupti eaque aut qui. Eveniet quidem enim commodi ipsum aspernatur nam quo delectus eum corporis quaerat, animi, rerum recusandae reprehenderit natus ad, deserunt facilis. Velit, veniam fuga ipsa repellat eos asperiores maxime voluptatem quam porro harum nostrum explicabo tempora animi reiciendis.',
             category: {
@@ -152,14 +152,14 @@ const model = {
     categories: [
         {
             id: 1,
-            name: 'concerts',
+            name: 'konserter',
             icon: 'music.svg',
             isSelected: true,
             isChecked: false
         },
         {
             id: 2,
-            name: 'happening',
+            name: 'arrangementer',
             icon: 'happening.svg',
             isSelected: true,
             isChecked: false
@@ -173,14 +173,14 @@ const model = {
         },
         {
             id: 4,
-            name: 'course',
+            name: 'kurser',
             icon: 'course.svg',
             isSelected: true,
             isChecked: false
         },
         {
             id: 5,
-            name: 'competition',
+            name: 'konkurranse',
             icon: 'prize.svg',
             isSelected: true,
             isChecked: false
