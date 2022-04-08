@@ -221,7 +221,7 @@ const showAds = (date, filtredAds) => {
                             <div class="card__icon card__icon--ad">
                                 <img src="images/megaphone.svg" alt="">
                             </div>
-                            <img class="card__img" src="${ad.image}" alt="">
+                            <img class="card__img" onclick="openModal(${ad.id})" src="${ad.image}" alt="">
                         </div>
                         <div class="card__title">${ad.title}</div>
                         <div class="card__calendar">

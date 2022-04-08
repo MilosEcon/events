@@ -1935,6 +1935,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   height: 200px;
   display: block;
   object-fit: cover;
+  cursor: pointer;
 }
 .card__title {
   margin-top: -45px;
