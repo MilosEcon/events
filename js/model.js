@@ -50,11 +50,11 @@ const model = {
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugit nisi similique, veritatis dolor impedit. Consectetur, sit! Neque accusamus deleniti, eos perferendis veniam incidunt corrupti eaque aut qui. Eveniet quidem enim commodi ipsum aspernatur nam quo delectus eum corporis quaerat, animi, rerum recusandae reprehenderit natus ad, deserunt facilis. Velit, veniam fuga ipsa repellat eos asperiores maxime voluptatem quam porro harum nostrum explicabo tempora animi reiciendis.',
             category: {
                 id: 5,
-                icon: 'trophy.svg',
+                icon: 'prize.svg',
             },
             date: {
-                start: '2022-03-20',
-                end: '2022-04-10'
+                start: '2022-04-07',
+                end: '2022-04-12'
             },
             time: {
                 start: '08:00',
@@ -74,8 +74,8 @@ const model = {
                 icon: 'restaurant.svg',
             },
             date: {
-                start: '2022-03-20',
-                end: '2022-03-30'
+                start: '2022-03-14',
+                end: '2022-04-30'
             },
             time: {
                 start: '08:00',
@@ -96,7 +96,7 @@ const model = {
             },
             date: {
                 start: '2022-03-12',
-                end: '2022-03-31'
+                end: '2022-04-15'
             },
             time: {
                 start: '08:00',
@@ -117,7 +117,7 @@ const model = {
             },
             date: {
                 start: '2022-03-24',
-                end: '2022-03-30'
+                end: '2022-04-30'
             },
             time: {
                 start: '08:00',
@@ -138,7 +138,7 @@ const model = {
             },
             date: {
                 start: '2022-03-25',
-                end: '2022-04-01'
+                end: '2022-04-17'
             },
             time: {
                 start: '08:00',
@@ -181,7 +181,7 @@ const model = {
         {
             id: 5,
             name: 'competition',
-            icon: 'trophy.svg',
+            icon: 'prize.svg',
             isSelected: true,
             isChecked: false
         }

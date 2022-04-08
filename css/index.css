@@ -1472,11 +1472,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .date-bookmark {
-  width: 30%;
-  padding: 10px 20px;
-  border: 1px solid rgb(39, 39, 39);
-  border-radius: 10px;
-  margin: 10px 0;
+  margin-top: 50px;
 }
 
 .btn {
@@ -1932,7 +1928,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   display: none;
 }
 .card__icon img {
-  width: 25px;
+  width: 20px;
 }
 .card__img {
   width: 100%;
@@ -2051,9 +2047,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
   z-index: 1;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
+  width: 100vw;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
 }
 .modal__card {
@@ -2063,33 +2058,85 @@ input[type=date]::-webkit-calendar-picker-indicator {
   background-color: #c7d5e8;
   border-radius: 10px;
   width: 100%;
-  height: 80vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media (min-width: 480px) {
+  .modal__card {
+    width: 80%;
+  }
 }
 @media (min-width: 720px) {
   .modal__card {
-    width: 100%;
+    height: 60vh;
+  }
+}
+@media (min-width: 960px) {
+  .modal__card {
+    width: 60%;
   }
 }
 .modal__img-wrapper {
   width: 100%;
   height: 25%;
 }
+@media (min-width: 720px) {
+  .modal__img-wrapper {
+    width: 49.99%;
+    height: 100%;
+  }
+}
 .modal__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+.modal__icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #496db3;
+  left: 10px;
+  top: 10px;
+}
+.modal__icon img {
+  width: 25px;
+}
 .modal__body {
   position: relative;
   width: 100%;
   height: 75%;
-  padding: 0px 20px;
+  padding: 0px 20px 1rem;
+}
+@media (min-width: 720px) {
+  .modal__body {
+    width: 49.99%;
+    height: 100%;
+  }
 }
 .modal__body p {
   width: 100%;
-  max-height: 70%;
+  max-height: calc(100% - 100px);
   overflow-y: scroll;
   text-align: justify;
+}
+@media (min-width: 720px) {
+  .modal__body p {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 720px) {
+  .modal__header {
+    position: absolute;
+    width: 100%;
+    padding: 0 20px 10px;
+    bottom: 0;
+    left: 0;
+  }
 }
 .modal__close {
   position: absolute;
