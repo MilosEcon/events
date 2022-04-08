@@ -43,8 +43,8 @@ const updateUserPageView = () => {
                   <input type="date" min="${startDate}" value="${endDate}" onchange="chooseDate(this, 'userPage', 'end')" onfocusout="turnOffDateFilter()"/>
                 </div>
               </div>
-              <div class="filter-bar__search-icon">
-                <img  src="images/search.svg" onclick="updateView();"/>
+              <div class="filter-bar__search-icon" onclick="updateView();">
+                <img  src="images/search.svg" />
               </div> 
             </div>
             <div class="filter-bar__days">
