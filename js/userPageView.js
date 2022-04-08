@@ -10,8 +10,10 @@ const updateUserPageView = () => {
         <header class="header text-white">
             <div class="container">
                 <nav class="navbar">
-                  <div>
-                      <img class="logo" src="images/logo.png" alt="logo" />
+                  <div style="width: 28px; height: 28px;" class="logo row align-items-center">
+                    <div style="width: 7px; height: 100%; background-color: white;margin-right: 3px;" class="logo__pilar"></div>
+                    <div style="width: 8px; height: 8px; background-color: #7bcef7; margin-right: 3px; border-radius: 10px;" class="logo__circel"></div>
+                    <div style="width: 7px; height: 100%; background-color: white;" class="logo__pilar"></div>
                   </div>
                   <div class="site-title">Hemsedsal</div>
                   <div class="add-btn" onclick="goToAdminPage()">
