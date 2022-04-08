@@ -43,6 +43,15 @@
     margin-top: -45px;
     margin-bottom: 15px;
   }
+  &__calendar {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-bottom: -0.5rem;
+    @include sm {
+      display: none;
+    }
+  }
+
   &__time-icon {
     width: 20px;
     height: 20px;

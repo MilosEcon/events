@@ -1,9 +1,9 @@
 const updateAdminPageView = () => {
     let html = `
         ${showConfirmationModal()}
-        <header class="header">
-            <div class="header__title"><h1>Hello ${model.users[0].name}!</h1></div>
-            <div class="header__btn" onclick="goToUserPage()"><img src="${'images/return.png'}"></div>
+        <header class="">
+            <div class=""><h1>Hello ${model.users[0].name}!</h1></div>
+            <div class="" onclick="goToUserPage()"><img src="${'images/return.png'}"></div>
         </header>
         <h3 class="text-center">Lag Ny Annonse</h3>
           <form action="" class="form">

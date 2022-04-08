@@ -103,7 +103,6 @@ const showModal = () => {
                     <img style="width: 20px;" src="images/calendar.svg" alt="" />
                 </div>
                 <div class="mr-1">${formatDate(ad.date.start)} - ${formatDate(ad.date.end)}</div>
-                <div></div>
               </div>
               <div class="row justify-space-between">
                 <div class="row align-items-center">
@@ -191,7 +190,7 @@ const showDateBookmarks = (startDate, endDate) => {
         
         html += `
             <div class="date-bookmark text-tertiary border-bottom-1 border-tertiary">${formatDate(reduceIsoDateString(date))}</div>
-            <div class="row gap-2 mt-4 text-tertiary">
+            <div class="row gap-1 mt-4 text-tertiary">
                 ${ads}
             </div>
 
@@ -222,9 +221,15 @@ const showAds = (date, filtredAds) => {
                             <div class="card__icon card__icon--ad">
                                 <img src="images/megaphone.svg" alt="">
                             </div>
-                            <img class="card__img" src="${ad.image}" alt="waves">
+                            <img class="card__img" src="${ad.image}" alt="">
                         </div>
                         <div class="card__title">${ad.title}</div>
+                        <div class="card__calendar">
+                            <div class="mr-1">
+                                <img style="width: 20px;" src="images/calendar.svg" alt="" />
+                            </div>
+                            <div class="mr-1">${formatDate(date)}</div>
+                        </div>
                         <div class="footer row justify-space-between align-items-center">
                             <div class="row align-items-center">
                                 <span class="card__time-icon"><img src="images/time.svg" alt="time"></span>
