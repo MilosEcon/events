@@ -54,7 +54,7 @@ const model = {
             },
             date: {
                 start: '2022-04-07',
-                end: '2022-04-12'
+                end: '2022-04-30'
             },
             time: {
                 start: '08:00',
@@ -74,7 +74,7 @@ const model = {
                 icon: 'restaurant.svg',
             },
             date: {
-                start: '2022-03-14',
+                start: '2022-04-14',
                 end: '2022-04-30'
             },
             time: {
@@ -95,8 +95,8 @@ const model = {
                 icon: 'music.svg',
             },
             date: {
-                start: '2022-03-12',
-                end: '2022-04-15'
+                start: '2022-04-12',
+                end: '2022-04-25'
             },
             time: {
                 start: '08:00',
@@ -116,8 +116,8 @@ const model = {
                 icon: 'course.svg',
             },
             date: {
-                start: '2022-03-24',
-                end: '2022-04-30'
+                start: '2022-04-24',
+                end: '2022-05-30'
             },
             time: {
                 start: '08:00',
@@ -137,8 +137,8 @@ const model = {
                 icon: 'happening.svg',
             },
             date: {
-                start: '2022-03-25',
-                end: '2022-04-17'
+                start: '2022-04-22',
+                end: '2022-05-17'
             },
             time: {
                 start: '08:00',
