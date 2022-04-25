@@ -2,7 +2,7 @@ const updateAdminPageView = () => {
     let html = `
         ${showConfirmationModal()}
         <header class="">
-            <div class=""><h1>Hello ${model.users[0].name}!</h1></div>
+            <div class=""><h1>ipak je registruje ${model.users[0].name}!</h1></div>
             <div class="" onclick="goToUserPage()"><img src="${'images/return.png'}"></div>
         </header>
         <h3 class="text-center">Lag Ny Annonse</h3>
