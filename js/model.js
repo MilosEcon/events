@@ -27,12 +27,12 @@ const model = {
             category: null,
             payment: null,
             date: {
-                start: '',
-                end: ''
+                start: today,
+                end: afterSevenDays
             },
             time: {
-                start: null,
-                end: null
+                start: '08:00',
+                end: '20:00'
             },
             link: '',
             isConfirmationModalOn: false

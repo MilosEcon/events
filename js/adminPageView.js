@@ -19,7 +19,7 @@ const updateAdminPageView = () => {
                     <div class="add-btn add-btn--admin" onclick="goToUserPage()">
                       
                       <div>
-                        <button class="text-tertiary ">Tilbake</button>
+                        <button class="text-tertiary">Tilbake</button>
                       </div>
                     </div>
                   </div>
