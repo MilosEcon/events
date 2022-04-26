@@ -42,8 +42,8 @@
 .add-btn {
   display: flex;
   align-items: center;
-  cursor: pointer;
   padding: 5px 0;
+  cursor: pointer;
   border-bottom: 2px solid transparent;
   .plus-sign {
     margin-right: 5px;
@@ -68,6 +68,9 @@
   }
   &:hover {
     border-bottom-color: white;
+  }
+  &--admin:hover {
+    border-bottom-color: $tertiary;
   }
 }
 

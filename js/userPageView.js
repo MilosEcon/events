@@ -2,6 +2,8 @@ const updateUserPageView = () => {
     
     const startDate = model.inputs.userPage.date.start;
     const endDate = model.inputs.userPage.date.end;
+
+    document.body.classList.add('bg-primary');
     
     let html = /*html*/`
         ${showModal()}
@@ -10,16 +12,22 @@ const updateUserPageView = () => {
         <header class="header text-white">
             <div class="container">
                 <nav class="navbar">
-                  <div style="width: 28px; height: 28px;" class="logo row align-items-center">
-                    <div style="width: 7px; height: 100%; background-color: white;margin-right: 3px;" class="logo__pilar"></div>
-                    <div style="width: 8px; height: 8px; background-color: #7bcef7; margin-right: 3px; border-radius: 10px;" class="logo__circel"></div>
-                    <div style="width: 7px; height: 100%; background-color: white;" class="logo__pilar"></div>
+                <div>
+                    <div class="navbar__logo row align-items-center">
+                      <div class="logo-pilar"></div>
+                      <div class="logo-circel"></div>
+                      <div class="logo-pilar"></div>
+                    </div>
                   </div>
-                  <div class="site-title">Hemsedsal</div>
-                  <div class="add-btn" onclick="goToAdminPage()">
-                    <div class="plus-sign"></div>
-                    <div>
-                      <button class="text-white">Ny Annonse</button>
+                  <div>
+                    <div class="navbar__title">Hemsedsal</div>
+                  </div>
+                  <div class="row justify-flex-end">
+                    <div class="add-btn" onclick="goToAdminPage()">
+                      <div class="plus-sign"></div>
+                      <div>
+                        <button class="text-white">Ny Annonse</button>
+                      </div>
                     </div>
                   </div>
                 </nav>

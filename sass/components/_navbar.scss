@@ -4,11 +4,36 @@
   align-items: center;
   justify-content: space-between;
   padding: $base-padding 0;
-  .logo {
-    width: 50px;
+  > div {
+    width: 33.333%;
+    &:last-child {
+      text-align: right;
+    }
   }
-  .site-title {
+  &__logo {
+    width: 31px;
+    height: 30px;
+    .logo-pilar {
+      width: 7px; 
+      height: 100%; 
+      background-color: white;
+      margin-right: 3px;
+      &--admin {
+        background-color: $tertiary;
+      }
+    }
+    .logo-circel {
+      width: 8px; 
+      height: 8px; 
+      background-color: #7bcef7; 
+      margin-right: 3px;
+      border-radius: 10px;
+    }
+  }
+  &__title {
     font-size: $font-size-lg;
+    text-align: center;
+    padding: 12px 0;
   }
 }
 

@@ -1,6 +1,6 @@
 .form {
-  width: 1200px;
-  margin: 0 auto 200px;
+  padding-bottom: 4rem;
+  color: $tertiary;
   & label {
     display: inline-block;
    margin-bottom: 10px;
@@ -8,11 +8,16 @@
   & input[type=text], textarea{
     width: 100%;
     padding: 12px;
-    @include border(1px, $borderRadius: 5px);
-    margin-bottom: 25px;
+    border: 1px solid $tertiary;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    color: $tertiary;
+    &::placeholder {
+      color: $tertiary-lighter;
+    }
   }
   &__time {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     > div {
       width: 200px;
     margin-right: 50px;
@@ -21,7 +26,14 @@
 
   select {
     display: block;
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  button {
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1rem;
   }
 }

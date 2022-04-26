@@ -101,14 +101,28 @@
     cursor: pointer;
   }
   &__confirmation-box {
-    width: 500px;
-    height: 400px;
-    background-color: rgb(145, 145, 145);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    margin: 20px;
+    background-color: $primary;
     border-radius: 20px;
-    padding: 40px;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 1.5rem;
     > div {
-      margin: 40px 0;
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    @include sm {
+      width: 550px;
+      height: 400px;
+    }
+    img {
+      width: 100px;
+      height: 100px;
     }
   }
 }

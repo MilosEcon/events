@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: rgb(39, 39, 39);
 }
 
 * {
@@ -1865,8 +1864,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .add-btn {
   display: flex;
   align-items: center;
-  cursor: pointer;
   padding: 5px 0;
+  cursor: pointer;
   border-bottom: 2px solid transparent;
 }
 .add-btn .plus-sign {
@@ -1892,6 +1891,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .add-btn:hover {
   border-bottom-color: white;
+}
+.add-btn--admin:hover {
+  border-bottom-color: #496db3;
 }
 
 .card {
@@ -2163,20 +2165,35 @@ input[type=date]::-webkit-calendar-picker-indicator {
   cursor: pointer;
 }
 .modal__confirmation-box {
-  width: 500px;
-  height: 400px;
-  background-color: rgb(145, 145, 145);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  margin: 20px;
+  background-color: #d9e3f2;
   border-radius: 20px;
-  padding: 40px;
-  font-size: 30px;
+  padding: 20px;
+  font-size: 1.5rem;
 }
 .modal__confirmation-box > div {
-  margin: 40px 0;
+  margin: 20px 0;
+  text-align: center;
+}
+@media (min-width: 480px) {
+  .modal__confirmation-box {
+    width: 550px;
+    height: 400px;
+  }
+}
+.modal__confirmation-box img {
+  width: 100px;
+  height: 100px;
 }
 
 .form {
-  width: 1200px;
-  margin: 0 auto 200px;
+  padding-bottom: 4rem;
+  color: #496db3;
 }
 .form label {
   display: inline-block;
@@ -2185,12 +2202,16 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .form input[type=text], .form textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid rgb(39, 39, 39);
+  border: 1px solid #496db3;
   border-radius: 5px;
-  margin-bottom: 25px;
+  margin-bottom: 2rem;
+  color: #496db3;
+}
+.form input[type=text]::placeholder, .form textarea::placeholder {
+  color: #92a7d1;
 }
 .form__time {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .form__time > div {
   width: 200px;
@@ -2198,8 +2219,14 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .form select {
   display: block;
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.form button {
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1rem;
 }
 
 .navbar, .navbar-white, .navbar-black, .navbar-error, .navbar-logo, .navbar-specialCard, .navbar-tertiary, .navbar-secondary, .navbar-primary {
@@ -2209,11 +2236,36 @@ input[type=date]::-webkit-calendar-picker-indicator {
   justify-content: space-between;
   padding: 0.4rem 0;
 }
-.navbar .logo, .navbar-white .logo, .navbar-black .logo, .navbar-error .logo, .navbar-logo .logo, .navbar-specialCard .logo, .navbar-tertiary .logo, .navbar-secondary .logo, .navbar-primary .logo {
-  width: 50px;
+.navbar > div, .navbar-white > div, .navbar-black > div, .navbar-error > div, .navbar-logo > div, .navbar-specialCard > div, .navbar-tertiary > div, .navbar-secondary > div, .navbar-primary > div {
+  width: 33.333%;
 }
-.navbar .site-title, .navbar-white .site-title, .navbar-black .site-title, .navbar-error .site-title, .navbar-logo .site-title, .navbar-specialCard .site-title, .navbar-tertiary .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
+.navbar > div:last-child, .navbar-white > div:last-child, .navbar-black > div:last-child, .navbar-error > div:last-child, .navbar-logo > div:last-child, .navbar-specialCard > div:last-child, .navbar-tertiary > div:last-child, .navbar-secondary > div:last-child, .navbar-primary > div:last-child {
+  text-align: right;
+}
+.navbar__logo {
+  width: 31px;
+  height: 30px;
+}
+.navbar__logo .logo-pilar {
+  width: 7px;
+  height: 100%;
+  background-color: white;
+  margin-right: 3px;
+}
+.navbar__logo .logo-pilar--admin {
+  background-color: #496db3;
+}
+.navbar__logo .logo-circel {
+  width: 8px;
+  height: 8px;
+  background-color: #7bcef7;
+  margin-right: 3px;
+  border-radius: 10px;
+}
+.navbar__title {
   font-size: 1.5rem;
+  text-align: center;
+  padding: 12px 0;
 }
 
 .navbar-primary {
@@ -2408,6 +2460,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
   background-position: center;
   background-size: cover;
   background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80");
+}
+.header--admin {
+  background: none;
 }
 @media (min-width: 720px) {
   .header {
