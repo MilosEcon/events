@@ -1,4 +1,0 @@
-@mixin border($width, $color: $textColor, $borderRadius: none) {
-    border: $width solid $color;
-    border-radius: $borderRadius;
-}

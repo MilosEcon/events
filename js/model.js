@@ -2,7 +2,6 @@ const model = {
     // state
     app: {
         currentPage: 'user',
-        currentUser: 1
     },
 
 
@@ -75,7 +74,7 @@ const model = {
             },
             date: {
                 start: '2022-04-14',
-                end: '2022-04-30'
+                end: '2022-05-03'
             },
             time: {
                 start: '08:00',
@@ -96,7 +95,7 @@ const model = {
             },
             date: {
                 start: '2022-04-12',
-                end: '2022-04-25'
+                end: '2022-05-25'
             },
             time: {
                 start: '08:00',
@@ -199,21 +198,6 @@ const model = {
         {
             id: 3,
             name: 'Extra Betalt'
-        }
-    ],
-    
-    users: [
-        {
-            id: 1,
-            name: 'Olav',
-            password: 123
-        }
-    ],
-
-    places: [
-        {
-            id: 1,
-            name: 'Hemsedal'
         }
     ]
 }

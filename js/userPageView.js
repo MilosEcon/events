@@ -14,9 +14,9 @@ const updateUserPageView = () => {
                 <nav class="navbar">
                 <div>
                     <div class="navbar__logo row align-items-center">
-                      <div class="logo-pilar"></div>
-                      <div class="logo-circel"></div>
-                      <div class="logo-pilar"></div>
+                      <div class="navbar__logo-pilar"></div>
+                      <div class="navbar__logo-circel"></div>
+                      <div class="navbar__logo-pilar"></div>
                     </div>
                   </div>
                   <div>

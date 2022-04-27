@@ -7,17 +7,16 @@ const updateAdminPageView = () => {
                 <nav class="navbar">
                 <div>
                     <div class="navbar__logo row align-items-center">
-                      <div class="logo-pilar logo-pilar--admin"></div>
-                      <div class="logo-circel logo-circel--admin"></div>
-                      <div class="logo-pilar logo-pilar--admin"></div>
+                      <div class="navbar__logo-pilar navbar__logo-pilar--admin"></div>
+                      <div class="navbar__logo-circel navbar__logo-circel--admin"></div>
+                      <div class="navbar__logo-pilar navbar__logo-pilar--admin"></div>
                     </div>
                   </div>
                   <div>
                     <div class="navbar__title">Hemsedsal</div>
                   </div>
                   <div class="row justify-flex-end">
-                    <div class="add-btn add-btn--admin" onclick="goToUserPage()">
-                      
+                    <div class="add-btn add-btn--admin" onclick="goToUserPage()">                      
                       <div>
                         <button class="text-tertiary">Tilbake</button>
                       </div>

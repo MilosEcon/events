@@ -2247,16 +2247,16 @@ input[type=date]::-webkit-calendar-picker-indicator {
   width: 31px;
   height: 30px;
 }
-.navbar__logo .logo-pilar {
+.navbar__logo-pilar {
   width: 7px;
   height: 100%;
   background-color: white;
   margin-right: 3px;
 }
-.navbar__logo .logo-pilar--admin {
+.navbar__logo-pilar--admin {
   background-color: #496db3;
 }
-.navbar__logo .logo-circel {
+.navbar__logo-circel {
   width: 8px;
   height: 8px;
   background-color: #7bcef7;
@@ -2299,41 +2299,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .navbar-white {
   background-color: white;
-}
-
-.circle-xs {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-
-.circle-sm {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-}
-
-.circle-md {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-}
-
-.circle-lg {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-
-.circle-xxl {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
 }
 
 .filter-bar__days, .filter-bar__calendars, .filter-bar__date-wrapper, .filter-bar {

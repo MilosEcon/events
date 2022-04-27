@@ -13,7 +13,7 @@
   &__logo {
     width: 31px;
     height: 30px;
-    .logo-pilar {
+    &-pilar {
       width: 7px; 
       height: 100%; 
       background-color: white;
@@ -22,7 +22,7 @@
         background-color: $tertiary;
       }
     }
-    .logo-circel {
+    &-circel {
       width: 8px; 
       height: 8px; 
       background-color: #7bcef7; 
