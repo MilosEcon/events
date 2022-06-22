@@ -52,8 +52,8 @@ const model = {
                 icon: 'prize.svg',
             },
             date: {
-                start: '2022-04-07',
-                end: '2022-04-30'
+                start: '2022-08-07',
+                end: '2022-08-30'
             },
             time: {
                 start: '08:00',
@@ -73,8 +73,8 @@ const model = {
                 icon: 'restaurant.svg',
             },
             date: {
-                start: '2022-04-14',
-                end: '2022-05-03'
+                start: '2022-08-14',
+                end: '2022-09-03'
             },
             time: {
                 start: '08:00',
@@ -94,8 +94,8 @@ const model = {
                 icon: 'music.svg',
             },
             date: {
-                start: '2022-04-12',
-                end: '2022-05-25'
+                start: '2022-08-12',
+                end: '2022-08-25'
             },
             time: {
                 start: '08:00',
@@ -115,8 +115,8 @@ const model = {
                 icon: 'course.svg',
             },
             date: {
-                start: '2022-04-24',
-                end: '2022-05-30'
+                start: '2022-08-24',
+                end: '2022-08-30'
             },
             time: {
                 start: '08:00',
@@ -136,8 +136,8 @@ const model = {
                 icon: 'happening.svg',
             },
             date: {
-                start: '2022-04-22',
-                end: '2022-05-17'
+                start: '2022-08-22',
+                end: '2022-09-17'
             },
             time: {
                 start: '08:00',
