@@ -52,7 +52,7 @@ const model = {
                 icon: 'prize.svg',
             },
             date: {
-                start: '2022-08-07',
+                start: '2022-06-07',
                 end: '2022-08-30'
             },
             time: {
@@ -73,7 +73,7 @@ const model = {
                 icon: 'restaurant.svg',
             },
             date: {
-                start: '2022-08-14',
+                start: '2022-06-14',
                 end: '2022-09-03'
             },
             time: {
@@ -94,7 +94,7 @@ const model = {
                 icon: 'music.svg',
             },
             date: {
-                start: '2022-08-12',
+                start: '2022-06-12',
                 end: '2022-08-25'
             },
             time: {
@@ -115,7 +115,7 @@ const model = {
                 icon: 'course.svg',
             },
             date: {
-                start: '2022-08-24',
+                start: '2022-06-24',
                 end: '2022-08-30'
             },
             time: {
@@ -136,7 +136,7 @@ const model = {
                 icon: 'happening.svg',
             },
             date: {
-                start: '2022-08-22',
+                start: '2022-06-22',
                 end: '2022-09-17'
             },
             time: {
