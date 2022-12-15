@@ -53,7 +53,7 @@ const model = {
             },
             date: {
                 start: '2022-06-07',
-                end: '2022-08-30'
+                end: '2023-08-30'
             },
             time: {
                 start: '08:00',
@@ -74,7 +74,7 @@ const model = {
             },
             date: {
                 start: '2022-06-14',
-                end: '2022-09-03'
+                end: '2023-09-03'
             },
             time: {
                 start: '08:00',
@@ -95,7 +95,7 @@ const model = {
             },
             date: {
                 start: '2022-06-12',
-                end: '2022-08-25'
+                end: '2023-08-25'
             },
             time: {
                 start: '08:00',
@@ -116,7 +116,7 @@ const model = {
             },
             date: {
                 start: '2022-06-24',
-                end: '2022-08-30'
+                end: '2023-08-30'
             },
             time: {
                 start: '08:00',
@@ -137,7 +137,7 @@ const model = {
             },
             date: {
                 start: '2022-06-22',
-                end: '2022-09-17'
+                end: '2023-09-17'
             },
             time: {
                 start: '08:00',
